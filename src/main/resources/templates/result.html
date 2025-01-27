@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Результат броска кубика</title>
+</head>
+<body>
+<h1>Результат броска кубика</h1>
+<p>Количество граней: <span th:text="${sides}"></span></p>
+<p>Выпало: <span th:text="${result}"></span></p>
+<a href="/">Бросить еще раз</a>
+</body>
+</html>

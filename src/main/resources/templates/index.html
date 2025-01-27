@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Бросок кубиков</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .result {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .dice-result {
+        margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+<h1>Бросок кубиков</h1>
+<form action="/" method="get">
+  <label for="count">Количество кубиков:</label>
+  <input type="number" id="count" name="count" min="1" max="10" th:value="${count}">
+  <br>
+  <label for="sides">Количество граней у каждого кубика:</label>
+  <input type="number" id="sides" name="sides" min="2" max="100" th:value="${sides}">
+  <br>
+  <label for="bonus">Фиксированное значение (бонус):</label>
+  <input type="number" id="bonus" name="bonus" min="0" max="100" th:value="${bonus}">
+  <br>
+  <button type="submit">Бросить кубики</button>
+</form>
+
+<!-- Блок с результатами -->
+<div th:if="${results != null}" class="result">
+  <h2>Результаты бросков</h2>
+  <p>Количество граней: <span th:text="${sides}"></span></p>
+  <div th:each="result : ${results}" class="dice-result">
+    Выпало: <span th:text="${result}"></span>
+  </div>
+  <p><strong>Сумма всех бросков: <span th:text="${total}"></span></strong></p>
+</div>
+</body>
+</html>
