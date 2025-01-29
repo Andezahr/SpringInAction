@@ -1,5 +1,7 @@
+app\model\IngredientByIdConverter.class
 app\model\TacoOrder.class
 app\controller\HomeController.class
+app\controller\OrderController.class
 app\controller\DesignTacoController.class
 app\model\Taco.class
 app\model\Ingredient.class

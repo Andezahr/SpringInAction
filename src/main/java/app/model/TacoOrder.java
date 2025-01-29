@@ -8,11 +8,11 @@ import java.util.List;
 @Data
 public class TacoOrder {
 
-    private String deliveryName;
-    private String deliveryStreet;
-    private String deliveryCity;
-    private String deliveryState;
-    private String deliveryZip;
+    private String name;
+    private String street;
+    private String city;
+    private String state;
+    private String zip;
     private String ccNumber;
     private String ccExpiration;
     private String ccCVV;

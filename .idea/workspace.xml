@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/IngredientByIdConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/IngredientByIdConverter.java" afterDir="false" />
+    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Дошёл до 72 страницы, добавил контроллер заказа и предстоит добавить форму заказа">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/orderForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/design.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +25,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -114,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738153738367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Дошёл до 72 страницы, добавил контроллер заказа и предстоит добавить форму заказа">
+      <option name="closed" value="true" />
+      <created>1738159014490</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738159014490</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,17 +151,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Дошёл до 72 страницы, добавил контроллер заказа и предстоит добавить форму заказа" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дошёл до 72 страницы, добавил контроллер заказа и предстоит добавить форму заказа" />
   </component>
 </project>
