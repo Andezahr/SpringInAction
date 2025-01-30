@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Дошёл до 72 страницы, добавил контроллер заказа и предстоит добавить форму заказа">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/orderForm.html" afterDir="false" />
+    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Починил форму заказа и сделал так что ингредиенты добавляются в лог">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +35,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Andezahr/SpringInAction-mystudy-.git&quot;,
+    &quot;url&quot;: &quot;git@github.com:Andezahr/SpringInAction.git&quot;,
     &quot;accountId&quot;: &quot;07a8dcc8-5aba-4087-9519-05a1f3124e5f&quot;
   }
 }</component>
@@ -73,12 +66,13 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/andrz/Documents/JavaProjects/SpringInAction&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -132,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738159014490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Починил форму заказа и сделал так что ингредиенты добавляются в лог">
+      <option name="closed" value="true" />
+      <created>1738162222026</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738162222026</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +154,7 @@
     </ignored-roots>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Дошёл до 72 страницы, добавил контроллер заказа и предстоит добавить форму заказа" />
-    <option name="LAST_COMMIT_MESSAGE" value="Дошёл до 72 страницы, добавил контроллер заказа и предстоит добавить форму заказа" />
+    <MESSAGE value="Починил форму заказа и сделал так что ингредиенты добавляются в лог" />
+    <option name="LAST_COMMIT_MESSAGE" value="Починил форму заказа и сделал так что ингредиенты добавляются в лог" />
   </component>
 </project>
