@@ -1,9 +1,11 @@
 package app.controller;
 
 
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.support.SessionStatus;
 
@@ -21,7 +23,11 @@ public class OrderController {
     }
 
     @PostMapping
-    public String processOrder(@ModelAttribute("order") TacoOrder order, SessionStatus sessionStatus) {
+    public String processOrder(@Valid @ModelAttribute("order") TacoOrder order, Errors errors, SessionStatus sessionStatus) {
+        if (errors.hasErrors()) {
+            return "orderForm";
+        }
+
         log.info("Order submitted: {}", order);
         sessionStatus.setComplete();
         return "redirect:/";

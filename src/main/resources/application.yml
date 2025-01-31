@@ -1,0 +1,8 @@
+spring:
+  application:
+    name=Spring in Action
+  datasource:
+    generate-unique-name=false
+    name=tacoCloud
+  thymeleaf:
+    cache=false

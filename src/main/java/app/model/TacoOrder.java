@@ -1,20 +1,46 @@
 package app.model;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
+import org.hibernate.validator.constraints.CreditCardNumber;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Digits;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Data
-public class TacoOrder {
+public class TacoOrder implements Serializable {
 
+    private static final Long serialVersionUID = 1L;
+
+    private Long id;
+    private Date placedAt;
+
+    @NotBlank(message = "Must not be blank")
     private String name;
+
+    @NotBlank(message = "Must not be blank")
     private String street;
+
+    @NotBlank(message = "Must not be blank")
     private String city;
+
+    @NotBlank(message = "Must not be blank")
     private String state;
+
+    @NotBlank(message = "Must not be blank")
     private String zip;
+
+    @CreditCardNumber(message = "CCNumber invalid")
     private String ccNumber;
+
+    @Pattern(regexp = "^(0[1-9]|1[0-2])(/)([2-9]\\d)$", message="Invalid date")
     private String ccExpiration;
+
+    @Digits(integer = 3, fraction = 0, message = "Invalid CVV")
     private String ccCVV;
 
     private List<Taco> tacos = new ArrayList<>();
