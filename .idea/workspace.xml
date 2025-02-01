@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Теперь фронт в едином стиле и красивый">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/data/IngredientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/data/JdbcIngredientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Добавил валидацию данных и начал работу над подключением базы данных&#10;А также теперь проперти хранится в ямле, ибо ямл крута">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Taco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Taco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Taco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738240346025</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавил валидацию данных и начал работу над подключением базы данных&#10;А также теперь проперти хранится в ямле, ибо ямл крута">
+      <option name="closed" value="true" />
+      <created>1738354192158</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738354192158</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +166,7 @@
     <MESSAGE value="Дошёл до 72 страницы, добавил контроллер заказа и предстоит добавить форму заказа" />
     <MESSAGE value="Починил форму заказа и сделал так что ингредиенты добавляются в лог" />
     <MESSAGE value="Теперь фронт в едином стиле и красивый" />
-    <option name="LAST_COMMIT_MESSAGE" value="Теперь фронт в едином стиле и красивый" />
+    <MESSAGE value="Добавил валидацию данных и начал работу над подключением базы данных&#10;А также теперь проперти хранится в ямле, ибо ямл крута" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил валидацию данных и начал работу над подключением базы данных&#10;А также теперь проперти хранится в ямле, ибо ямл крута" />
   </component>
 </project>
