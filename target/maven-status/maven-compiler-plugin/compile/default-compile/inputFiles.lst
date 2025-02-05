@@ -2,6 +2,11 @@ C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controlle
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controller\DiceController.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controller\HomeController.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controller\OrderController.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\IngredientRef.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\IngredientRepository.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\JdbcIngredientRepository.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\JdbcOrderRepository.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\OrderRepository.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\Ingredient.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\IngredientByIdConverter.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\Taco.java
