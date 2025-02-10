@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="В процессе подключение JDBC">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/data/IngredientRef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/data/JdbcOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/data/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="106 стр, добавлен order repo и ingredient repo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringInActionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringInActionApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/IngredientByIdConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/IngredientByIdConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/data/IngredientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/data/JdbcIngredientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/data/JdbcOrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/data/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/data/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Taco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/data/IngredientRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/data/IngredientRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/data/JdbcIngredientRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/data/JdbcOrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/data/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/data/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Ingredient$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Ingredient$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Ingredient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/model/IngredientByIdConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/IngredientByIdConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/model/Taco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Taco.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" afterDir="false" />
@@ -165,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738439986057</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="106 стр, добавлен order repo и ingredient repo">
+      <option name="closed" value="true" />
+      <created>1738766525801</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738766525801</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +208,7 @@
     <MESSAGE value="Теперь фронт в едином стиле и красивый" />
     <MESSAGE value="Добавил валидацию данных и начал работу над подключением базы данных&#10;А также теперь проперти хранится в ямле, ибо ямл крута" />
     <MESSAGE value="В процессе подключение JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="В процессе подключение JDBC" />
+    <MESSAGE value="106 стр, добавлен order repo и ingredient repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="106 стр, добавлен order repo и ingredient repo" />
   </component>
 </project>

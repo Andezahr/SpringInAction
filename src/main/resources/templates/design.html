@@ -88,7 +88,6 @@
         <div class="input-group">
             <h3>Name your taco creation:</h3>
             <input type="text" th:field="*{name}" placeholder="Enter creative name..."/>
-            <span th:text="${#fields.hasErrors('name')}">XXX</span>
             <span class="validationError"
                   th:if="${#fields.hasErrors('name')}"
                   th:errors="*{name}">Name Error</span>

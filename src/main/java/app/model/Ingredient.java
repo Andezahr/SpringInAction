@@ -1,30 +1,23 @@
 package app.model;
 
+import jakarta.persistence.Entity;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import jakarta.persistence.Id;
+
 
 @Data
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor (access = AccessLevel.PRIVATE, force = true)
 public class Ingredient {
+
+    @Id
     private final String id;
     private final String name;
     private final Type type;
-
-    public Ingredient(String id, String  name, Type type) {
-        this.id = id;
-        this.name = name;
-        this.type = type;
-    }
-
-    public String getId() {
-        return this.id;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public Type getType() {
-        return this.type;
-    }
 
     public enum Type {
         WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
