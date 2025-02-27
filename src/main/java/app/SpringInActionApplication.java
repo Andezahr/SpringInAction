@@ -1,6 +1,7 @@
 package app;
 
 import app.data.IngredientRepository;
+import app.data.UserRepository;
 import app.model.Ingredient;
 import app.model.Ingredient.*;
 import org.springframework.boot.CommandLineRunner;
@@ -15,7 +16,7 @@ public class SpringInActionApplication {
 		SpringApplication.run(SpringInActionApplication.class, args);
 	}
 	@Bean
-	public CommandLineRunner dataLoader(IngredientRepository repo) {
+	public CommandLineRunner dataLoader(IngredientRepository repo, UserRepository users) {
 		return new CommandLineRunner() {
 			@Override
 			public void run(String... args) throws Exception {
@@ -29,6 +30,7 @@ public class SpringInActionApplication {
 				repo.save(new Ingredient("JACK", "Monterrey Jack", Type.CHEESE));
 				repo.save(new Ingredient("SLSA", "Salsa", Type.SAUCE));
 				repo.save(new Ingredient("SRCR", "Sour Cream", Type.SAUCE));
+				users.save(new User("az", "1", "1", "1","1","1","1","1"));
 			}
 		};
 	}
