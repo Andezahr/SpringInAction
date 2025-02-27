@@ -2,11 +2,17 @@ C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controlle
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controller\DiceController.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controller\HomeController.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controller\OrderController.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\controller\WebConfig.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\IngredientRef.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\IngredientRepository.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\OrderRepository.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\data\UserRepository.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\Ingredient.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\IngredientByIdConverter.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\Taco.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\TacoOrder.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\security\RegistrationController.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\security\RegistrationForm.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\security\SecurityConfig.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\SpringInActionApplication.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\User.java

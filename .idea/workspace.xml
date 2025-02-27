@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Настроил БД при помощи JPA и дошёл до начала Spring Security">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/data/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/RegistrationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringInActionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringInActionApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/IngredientByIdConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/IngredientByIdConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/SpringInActionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/SpringInActionApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/IngredientByIdConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/IngredientByIdConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/design.html" afterDir="false" />
+    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Security работает, но не выполняет свою функцию))) я не знаю что с этим делать, поэтому разберусь потом">
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739196512573</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Security работает, но не выполняет свою функцию))) я не знаю что с этим делать, поэтому разберусь потом">
+      <option name="closed" value="true" />
+      <created>1740663926948</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740663926948</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +206,7 @@
     <MESSAGE value="В процессе подключение JDBC" />
     <MESSAGE value="106 стр, добавлен order repo и ingredient repo" />
     <MESSAGE value="Настроил БД при помощи JPA и дошёл до начала Spring Security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настроил БД при помощи JPA и дошёл до начала Spring Security" />
+    <MESSAGE value="Security работает, но не выполняет свою функцию))) я не знаю что с этим делать, поэтому разберусь потом" />
+    <option name="LAST_COMMIT_MESSAGE" value="Security работает, но не выполняет свою функцию))) я не знаю что с этим делать, поэтому разберусь потом" />
   </component>
 </project>
