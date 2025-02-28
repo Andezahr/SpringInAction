@@ -5,12 +5,18 @@ import app.data.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.authority.mapping.GrantedAuthoritiesMapper;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @Configuration
 public class SecurityConfig {
@@ -31,23 +37,35 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        String designTaco = "/design";
         return http
                 .csrf(csrf -> csrf.csrfTokenRepository(new HttpSessionCsrfTokenRepository()))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/design", "/orders").hasRole("USER")
+                        .requestMatchers(designTaco, "/orders").hasRole("USER")
                         .requestMatchers("/", "/**").permitAll())
                 .formLogin(form -> form.loginPage("/login")
                         .loginProcessingUrl("/authenticate")
                         .usernameParameter("user")
                         .passwordParameter("pwd")
-                        .defaultSuccessUrl("/design", true)
+                        .defaultSuccessUrl(designTaco, true)
                         .permitAll())
                 .oauth2Login(form -> form
                         .loginPage("/login")
-                        .defaultSuccessUrl("/design", true))
+                        .defaultSuccessUrl(designTaco, true)
+                        .userInfoEndpoint(userInfo -> userInfo
+                                .userAuthoritiesMapper(userAuthoritiesMapper()) // Подключаем маппинг ролей
+                        ))
                 .logout(form -> form
                         .logoutSuccessUrl("/"))
                 .build();
     }
 
+    @Bean
+    public GrantedAuthoritiesMapper userAuthoritiesMapper() {
+        return authorities -> {
+            Set<GrantedAuthority> mappedAuthorities = new HashSet<>();
+            mappedAuthorities.add(new SimpleGrantedAuthority("ROLE_USER"));
+            return mappedAuthorities;
+        };
+    }
 }
