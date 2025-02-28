@@ -10,6 +10,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;
 
 @Configuration
 public class SecurityConfig {
@@ -31,6 +32,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         return http
+                .csrf(csrf -> csrf.csrfTokenRepository(new HttpSessionCsrfTokenRepository()))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/design", "/orders").hasRole("USER")
                         .requestMatchers("/", "/**").permitAll())
@@ -38,10 +40,13 @@ public class SecurityConfig {
                         .loginProcessingUrl("/authenticate")
                         .usernameParameter("user")
                         .passwordParameter("pwd")
-                        .defaultSuccessUrl("/design")
+                        .defaultSuccessUrl("/design", true)
                         .permitAll())
-                .oauth2Login(form -> form.loginPage("/login"))
-                .logout(form -> form.logoutSuccessUrl("/"))
+                .oauth2Login(form -> form
+                        .loginPage("/login")
+                        .defaultSuccessUrl("/design", true))
+                .logout(form -> form
+                        .logoutSuccessUrl("/"))
                 .build();
     }
 

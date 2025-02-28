@@ -8,6 +8,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
 public class SpringInActionApplication {
@@ -16,7 +17,7 @@ public class SpringInActionApplication {
 		SpringApplication.run(SpringInActionApplication.class, args);
 	}
 	@Bean
-	public CommandLineRunner dataLoader(IngredientRepository repo, UserRepository users) {
+	public CommandLineRunner dataLoader(IngredientRepository repo, UserRepository users, PasswordEncoder passwordEncoder) {
 		return new CommandLineRunner() {
 			@Override
 			public void run(String... args) throws Exception {
@@ -30,7 +31,7 @@ public class SpringInActionApplication {
 				repo.save(new Ingredient("JACK", "Monterrey Jack", Type.CHEESE));
 				repo.save(new Ingredient("SLSA", "Salsa", Type.SAUCE));
 				repo.save(new Ingredient("SRCR", "Sour Cream", Type.SAUCE));
-				users.save(new User("az", "1", "1", "1","1","1","1","1"));
+				users.save(new User("az", passwordEncoder.encode("1"), "1", "1","1","1","1","1"));
 			}
 		};
 	}
