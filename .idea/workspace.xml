@@ -5,28 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Get, put, patch, post запросы REST, для тако и заказов">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/api/OrderApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/api/TacoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/data/TacoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app/api/TacoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app/data/TacoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringInActionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringInActionApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Ingredient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/api/OrderApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/api/TacoController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Taco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/TacoOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/SpringInActionApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/SpringInActionApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/SpringInActionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/SpringInActionApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/api/TacoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Ingredient$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Ingredient$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Ingredient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/model/Taco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Taco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/TacoOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-app.SpringInActionApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-app.controller.HomeControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/app.SpringInActionApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/app.controller.HomeControllerTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740737238655</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Get, put, patch, post запросы REST, для тако и заказов">
+      <option name="closed" value="true" />
+      <created>1740832849127</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740832849127</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

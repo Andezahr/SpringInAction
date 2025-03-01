@@ -2,7 +2,6 @@ app\model\IngredientByIdConverter.class
 app\model\TacoOrder.class
 app\controller\HomeController.class
 app\SpringInActionApplication$1.class
-app\api\TacoController.class
 app\data\UserRepository.class
 app\controller\DesignTacoController.class
 app\data\IngredientRef.class

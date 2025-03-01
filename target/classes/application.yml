@@ -1,11 +1,14 @@
 spring:
+  data:
+    rest:
+      basePath: /data-api
   application:
-    name=Spring in Action
+    name: Spring in Action
   datasource:
-    generate-unique-name=false
-    name=tacoCloud
+    generate-unique-name: false
+    name: tacoCloud
   thymeleaf:
-    cache=false
+    cache: false
   security:
     oauth2:
       client:
