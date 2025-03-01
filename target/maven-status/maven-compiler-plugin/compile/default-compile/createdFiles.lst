@@ -2,6 +2,7 @@ app\model\IngredientByIdConverter.class
 app\model\TacoOrder.class
 app\controller\HomeController.class
 app\SpringInActionApplication$1.class
+app\api\TacoController.class
 app\data\UserRepository.class
 app\controller\DesignTacoController.class
 app\data\IngredientRef.class
@@ -9,6 +10,7 @@ app\model\Ingredient.class
 app\data\IngredientRepository.class
 app\controller\DiceController.class
 app\model\Ingredient$Type.class
+app\data\TacoRepository.class
 app\data\OrderRepository.class
 app\security\SecurityConfig.class
 app\controller\OrderController.class

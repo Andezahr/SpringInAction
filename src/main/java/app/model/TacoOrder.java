@@ -1,5 +1,6 @@
 package app.model;
 
+import app.User;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
@@ -14,9 +15,12 @@ import java.util.List;
 
 @Data
 @Entity
+@Table(name="Taco_Order")
 public class TacoOrder implements Serializable {
 
     private static final Long serialVersionUID = 1L;
+    @ManyToOne
+    private User user;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

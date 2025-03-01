@@ -1,5 +1,6 @@
 package app.model;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -12,12 +13,13 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Taco {
+public class Taco implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @Column
     private Date createdAt = new Date();
 
     @NotNull
