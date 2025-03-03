@@ -6,10 +6,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import jakarta.persistence.Id;
+import org.springframework.data.rest.webmvc.RepositoryRestController;
 
 import java.io.Serializable;
 
-
+@RepositoryRestController
 @Data
 @Entity
 @AllArgsConstructor
