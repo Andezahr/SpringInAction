@@ -45,6 +45,9 @@ public class SpringInActionApplication {
 						"SLSA", "Salsa", Type.SAUCE);
 				Ingredient sourCream = new Ingredient(
 						"SRCR", "Sour Cream", Type.SAUCE);
+				Ingredient chicken = new Ingredient(
+						"CHKN", "Chicken", Type.PROTEIN);
+				ingredientRepo.save(chicken);
 				ingredientRepo.save(flourTortilla);
 				ingredientRepo.save(cornTortilla);
 				ingredientRepo.save(groundBeef);
@@ -59,6 +62,7 @@ public class SpringInActionApplication {
 				userRepo.save(new User("habuma", encoder.encode("password"),
 						"Craig Walls", "123 North Street", "Cross Roads", "TX",
 						"76227", "123-123-1234"));
+				userRepo.save(new User("az", encoder.encode("1"), "1", "1","1","1","1","1"));
 
 				Taco taco1 = new Taco();
 				taco1.setName("Carnivore");

@@ -4,6 +4,8 @@ import app.User;
 import app.data.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -42,7 +44,12 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.csrfTokenRepository(new HttpSessionCsrfTokenRepository()))
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(designTaco, "/orders").hasRole("USER")
-                        .requestMatchers("/", "/**").permitAll())
+                        .requestMatchers("/", "/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/api/ingredients")
+                        .hasAuthority("SCOPE_writeIngredients")
+                        .requestMatchers(HttpMethod.DELETE, "/api/ingredients")
+                        .hasAuthority("SCOPE_deleteIngredients"))
+
                 .formLogin(form -> form.loginPage("/login")
                         .loginProcessingUrl("/authenticate")
                         .usernameParameter("user")
@@ -55,6 +62,7 @@ public class SecurityConfig {
                         .userInfoEndpoint(userInfo -> userInfo
                                 .userAuthoritiesMapper(userAuthoritiesMapper()) // Подключаем маппинг ролей
                         ))
+                .oauth2ResourceServer(oauth2 -> oauth2.jwt(Customizer.withDefaults()))
                 .logout(form -> form
                         .logoutSuccessUrl("/"))
                 .build();

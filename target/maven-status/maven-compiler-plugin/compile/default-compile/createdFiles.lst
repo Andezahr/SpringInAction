@@ -2,7 +2,9 @@ app\model\IngredientByIdConverter.class
 app\model\TacoOrder.class
 app\controller\HomeController.class
 app\SpringInActionApplication$1.class
+app\rest\IngredientController.class
 app\data\UserRepository.class
+app\rest\CustomRestMvcConfiguration$1.class
 app\controller\DesignTacoController.class
 app\data\IngredientRef.class
 app\model\Ingredient.class
@@ -14,6 +16,7 @@ app\data\OrderRepository.class
 app\security\SecurityConfig.class
 app\controller\OrderController.class
 app\security\RegistrationController.class
+app\rest\CustomRestMvcConfiguration.class
 app\controller\WebConfig.class
 app\model\Taco.class
 app\User.class

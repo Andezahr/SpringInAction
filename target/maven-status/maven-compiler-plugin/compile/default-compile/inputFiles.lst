@@ -13,6 +13,7 @@ C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\Ing
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\Taco.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\model\TacoOrder.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\rest\CustomRestMvcConfiguration.java
+C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\rest\IngredientController.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\security\RegistrationController.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\security\RegistrationForm.java
 C:\Users\andrz\Documents\JavaProjects\SpringInAction\src\main\java\app\security\SecurityConfig.java
