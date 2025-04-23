@@ -4,36 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Проперти не работают, и не заработают, поэтому сделал конфиг с помощью бина, и наконец настроил корневой адрес апи">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/rest/IngredientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Защитил API с помощью сервера авторизации, снова поменял проперти. Дальше надо защитить другие эндпоинты и написать клиент.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/SpringInActionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/SpringInActionApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/DesignTacoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/data/IngredientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/data/IngredientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/data/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/data/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/data/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Taco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/deprecated_application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/app/controller/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/controller/HomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/SpringInActionApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/SpringInActionApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/DesignTacoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/data/IngredientRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/data/IngredientRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/data/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/data/OrderRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/data/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/data/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Ingredient$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Ingredient$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Ingredient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Ingredient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Taco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Taco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/app/controller/HomeControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/app/controller/HomeControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/security/SecurityConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +73,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/andrz/Documents/JavaProjects/Authorization-Server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andrz/Documents/JavaProjects/ActionClient&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -255,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741000272802</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Защитил API с помощью сервера авторизации, снова поменял проперти. Дальше надо защитить другие эндпоинты и написать клиент.">
+      <option name="closed" value="true" />
+      <created>1741697872532</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1741697872532</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +270,7 @@
     <MESSAGE value="Get, put, patch, post запросы REST, для тако и заказов" />
     <MESSAGE value="Удалил все РЕСТ-классы и просто подключил спринг дата рест))) это просто ад. не работает конфига в ямле, не знаю как исправить" />
     <MESSAGE value="Проперти не работают, и не заработают, поэтому сделал конфиг с помощью бина, и наконец настроил корневой адрес апи" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проперти не работают, и не заработают, поэтому сделал конфиг с помощью бина, и наконец настроил корневой адрес апи" />
+    <MESSAGE value="Защитил API с помощью сервера авторизации, снова поменял проперти. Дальше надо защитить другие эндпоинты и написать клиент." />
+    <option name="LAST_COMMIT_MESSAGE" value="Защитил API с помощью сервера авторизации, снова поменял проперти. Дальше надо защитить другие эндпоинты и написать клиент." />
   </component>
 </project>
