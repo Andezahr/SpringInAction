@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Защитил API с помощью сервера авторизации, снова поменял проперти. Дальше надо защитить другие эндпоинты и написать клиент.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f541620d-453b-4c16-9c69-38c7d6bb756c" name="Changes" comment="Gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745405525338</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Gitignore">
+      <option name="closed" value="true" />
+      <created>1745405804038</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1745405804038</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Gitignore">
+      <option name="closed" value="true" />
+      <created>1745405882791</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1745405882791</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +292,7 @@
     <MESSAGE value="Удалил все РЕСТ-классы и просто подключил спринг дата рест))) это просто ад. не работает конфига в ямле, не знаю как исправить" />
     <MESSAGE value="Проперти не работают, и не заработают, поэтому сделал конфиг с помощью бина, и наконец настроил корневой адрес апи" />
     <MESSAGE value="Защитил API с помощью сервера авторизации, снова поменял проперти. Дальше надо защитить другие эндпоинты и написать клиент." />
-    <option name="LAST_COMMIT_MESSAGE" value="Защитил API с помощью сервера авторизации, снова поменял проперти. Дальше надо защитить другие эндпоинты и написать клиент." />
+    <MESSAGE value="Gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gitignore" />
   </component>
 </project>
